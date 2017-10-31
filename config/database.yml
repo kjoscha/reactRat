@@ -1,0 +1,14 @@
+test:
+  adapter: postgresql
+  pool: 5
+  database: react_rails_test
+
+development:
+  adapter: postgresql
+  pool: 5
+  database: react_rails_development
+
+production:
+  adapter: postgresql
+  pool: 5
+  database: react_rails_production

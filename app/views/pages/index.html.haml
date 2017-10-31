@@ -1,0 +1,13 @@
+%nav.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      %a.navbar-brand{:href => "#"} React + Rails
+    %ul.nav.navbar-nav
+      %li.active
+        %a{:href => "#"} Link
+
+%h1 Pipeline component:
+= react_component("Game", {title: "Hello World"})
+
+%h1 Webpack component:
+= javascript_pack_tag 'hello_react'
